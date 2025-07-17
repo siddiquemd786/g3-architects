@@ -16,8 +16,10 @@ body{
 
 header {
     max-width: 1920px;
+    
     margin: 0 auto;
-    background-color: rgba(255, 144, 14, 0.1);
+    background-color: rgba(255, 144, 14, 0.1)
+    
 }
 
 nav{
@@ -55,4 +57,38 @@ nav{
 .dark-2{
     color: #424242;
    
+}
+.dark-3{
+    color: #727272;
+}
+
+.hero {
+    text-align: center;
+    max-width: 860px;
+    padding: 5rem 2rem;
+   
+    margin: 0 auto;
+}
+
+.hero-title{
+    font-size: 4rem;
+
+}
+
+.btn-1{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 20PX 24PX;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.banner-pic {
+    max-width: 1440px;
+    height: auto;
+    display: block;
+    margin: 5px auto;
+
 }
