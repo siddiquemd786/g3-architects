@@ -226,10 +226,54 @@ nav{
    
 
 }
+.sponsor{
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+   
+
+}
+.sponsor h1{
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.sponsor p{
+    font-size: 16px;
+    color: #727272;
+}
+.sponsor-cards{
+    
+    
+margin-left: 10px;
+    display: flex;
+  gap: 75px;
+   
+}
+
+footer{
+   height: 100px;               /* or any height you want */
+  display: flex;               /* enable flex layout */
+  align-items: center;         /* vertical centering */
+  justify-content: center;     /* optional: horizontal centering */
+  background-color: #f0f0f0;
+  width: 90%;
+  margin: 30px auto;
+  border-radius: 8px;
+  
+}
+footer p{
+    color: #424242;
+}
+
 
 
 
 @media screen and (max-width:776px) {
+    footer{
+  text-align: center;
+  font-size: 18px;
+  
+}
     nav{
         display: flex;
         flex-direction: column;
@@ -292,11 +336,41 @@ nav{
 .fact-card{
     margin: 0 auto;
 }
+
+.sponsor{
+    width: 90%;
+    margin: 0 auto;
+}
+.sponsor-cards{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+   align-items: center;
+    
+
+}
+.sponsor-cards img{
+    width: 70%;
+    margin-top: 20px;
+}
+.sponsor h1{
+    font-size: 2.8rem;
+}
+.sponsor p{
+    width: 100%;
+    font-size: 18px;
+}
     
 }
 
 
 @media screen and (min-width:776px) and (max-width:992px) {
+    .fact-cards{
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    
+}
     .feature{
     flex-direction: column;
 }
@@ -325,6 +399,31 @@ nav{
 }
 .btnyear{
     font-size: 3rem;
+}
+.sponsor{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.sponsor-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+    
+    
+
+}
+.sponsor-cards img{
+    width: 70%;
+    margin: 20px auto;
+}
+.sponsor h1{
+    font-size: 2.8rem;
+}
+.sponsor p{
+    width: 100%;
+    font-size: 18px;
 }
 
    
