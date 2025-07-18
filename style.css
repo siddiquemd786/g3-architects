@@ -187,6 +187,48 @@ nav{
     font-size: 1rem;
 }
 
+
+.facts{
+    width: 90%;
+    margin: 20px auto;
+    
+    
+
+}
+.facts p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+.facts h1{
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+.fact-cards{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    margin: 0 20px;
+    text-align: center;
+    
+    
+}
+.fact-card{
+    width: 170px;
+    height: 170px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding-left: 35px;
+    padding-top:45px ;
+    padding-right: 35px;
+    padding-bottom: 60px;
+   
+
+}
+
+
+
 @media screen and (max-width:776px) {
     nav{
         display: flex;
@@ -238,8 +280,21 @@ nav{
     margin: 0 auto;
 
 }
+.facts{
+    text-align: center;
+
+}
+.fact-cards{
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 30px;
     
 }
+.fact-card{
+    margin: 0 auto;
+}
+    
+}
+
 
 @media screen and (min-width:776px) and (max-width:992px) {
     .feature{
@@ -271,6 +326,7 @@ nav{
 .btnyear{
     font-size: 3rem;
 }
+
    
     
 }
